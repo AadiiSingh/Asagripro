@@ -1922,7 +1922,6 @@ ul.social_icon li a:hover {
      line-height: 55px;
      padding-bottom: 7px;
      display: block;
-     text-transform: uppercase;
      padding: 0px 0px 6px 0px;
      border-bottom: #163f03 solid 1px;
 }
@@ -2250,7 +2249,10 @@ transform:skew(190deg) .testimonial_cont h3 {
 
 
 .map_section {
-     border-top: #052501 solid 6px;
+     background-image: url('../images/banner.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-bottom: 140px;
 }
 
 #map {
@@ -2263,11 +2265,12 @@ transform:skew(190deg) .testimonial_cont h3 {
 }
 
 .main_form {
-     position: absolute;
-     z-index: 990;
-     background: #052501;
-     margin-top: 80px;
-     padding: 60px 40px;
+    z-index: 990;
+    background: #515550;
+    margin-top: 40px;
+    padding: 60px 40px;
+    width: 1139px;
+    margin-bottom: 40px;
 }
 
 .form-control {
