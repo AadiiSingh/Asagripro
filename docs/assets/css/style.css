@@ -5,7 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -27,14 +26,6 @@
 * {
      box-sizing: border-box !important;
      transition: ease all 0.5s;
-     font-family: "Inter", Sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-}
-
-h2{
-     font-family: "Roboto", Sans-serif;
-     font-size: 35px;
 }
 
 html {
@@ -209,7 +200,7 @@ button {
 
 .full {
      float: left;
-     width: 80%;
+     width: 100%;
 }
 
 .layout_padding {
@@ -448,7 +439,7 @@ a.readmore_bt {
 .header {
      font-family: poppins;
      padding: 10px 0px;
-     background: #046434;
+     background: #052501;
      background-repeat: no-repeat;
      background-size: 100% 100%;
      background-position: center center;
@@ -1680,7 +1671,7 @@ input[type="radio"] .styled:checked+label::after {
      width: 109px;
      text-align: center;
      z-index: 1;
-     background: #046434;
+     background: #052501;
 }
 
 .location_icon_bottum_tt {
@@ -1703,31 +1694,30 @@ input[type="radio"] .styled:checked+label::after {
 
 .location_icon_bottum {
 
-     position: absolute;
+     position: relative;
      z-index: 999;
-     /* background: #090501; */
-     
-     /* margin-left: 31px; */
-     top: 19px;
-     width: 75%;
-     margin-left: 22rem;
+     background: #090501;
+     margin-left: 31px;
+     top: 0;
+     margin-bottom: -43px;
+
 }
 
 .location_icon_bottum::before {
      position: absolute;
      content: "";
      top: 0px;
-     /* background: url(../icon/wfe4.png); */
+     background: url(../icon/wfe4.png);
      background-repeat: repeat;
-     width: 45px;
-     height: 45px;
+     width: 67px;
+     height: 67px;
      background-repeat: no-repeat;
-     left: -25px;
+     left: -35px;
 }
 
 .location_icon_bottum ul li {
      display: inline-block;
-     padding: 0px 5px;
+     padding: 0px 10px;
      color: #fff;
      font-size: 15px;
      font-weight: 500;
@@ -1756,7 +1746,7 @@ input[type="radio"] .styled:checked+label::after {
      width: 25px;
      height: 25px;
      border-radius: 15px;
-     background-color: #046434;
+     background-color: #052501;
 
 }
 
@@ -1821,8 +1811,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .banner-main .carousel-caption .buynow:hover {
-     border: #046434 solid 1px;
-     background: #046434;
+     border: #052501 solid 1px;
+     background: #052501;
      color: #fff;
 }
 
@@ -1895,9 +1885,9 @@ ul.social_icon li a:hover {
      padding: 0px 0px 6px 0px;
      text-transform: uppercase;
      font-weight: 500;
-     color: #046434;
+     color: #052501;
      line-height: 46px;
-     border-bottom: #046434 solid 1px;
+     border-bottom: #052501 solid 1px;
      font-size: 50px;
      max-width: 374px;
      width: 100%;
@@ -1934,8 +1924,6 @@ ul.social_icon li a:hover {
      display: block;
      padding: 0px 0px 6px 0px;
      border-bottom: #163f03 solid 1px;
-     font-family: "Roboto", Sans-serif;
-     font-size: 35px;
 }
 
 .about .about_box p {
@@ -1950,8 +1938,8 @@ ul.social_icon li a:hover {
      color: #fff;
      font-size: 17px;
      line-height: 29px;
-     background: #046434;
-     border: #046434 solid 1px;
+     background: #052501;
+     border: #052501 solid 1px;
      padding: 12px 40px;
      display: inline-block;
      width: 231px;
@@ -1982,7 +1970,7 @@ ul.social_icon li a:hover {
 
 /** for_box **/
 .for_box_bg {
-     background: #046434;
+     background: #052501;
      padding: 70px 0px;
 }
 
@@ -2015,7 +2003,7 @@ ul.social_icon li a:hover {
 }
 
 .offer-bg {
-     background: #046434;
+     background: #052501;
      padding: 90px 0px;
 
 }
@@ -2026,7 +2014,7 @@ ul.social_icon li a:hover {
 
 
 .offer .offer-bg {
-     background: #046434;
+     background: #052501;
      text-align: center;
      padding: 60px 0px;
 }
@@ -2118,7 +2106,7 @@ ul.social_icon li a:hover {
      bottom: 0;
      text-align: center;
      width: 100%;
-     background: #046434d4;
+     background: #052501d4;
      padding: 10px 13px 13px 13px;
      font-size: 30px;
      line-height: 40px;
@@ -2178,7 +2166,7 @@ ul.social_icon li a:hover {
 
 .testimonial_cont p {
      color: #fff;
-     background: #046434;
+     background: #052501;
      padding: 40px 50px;
 }
 
@@ -2189,7 +2177,7 @@ ul.social_icon li a:hover {
 #testimonial_slider .carousel-indicators li {
      width: 25px;
      height: 25px;
-     background-color: #046434;
+     background-color: #052501;
      border-radius: 50px;
 }
 
@@ -2331,9 +2319,8 @@ transform:skew(190deg) .testimonial_cont h3 {
 /** end contact **/
 
 .footer {
-     /* background: #046434; */
-     background: #fff;
-     /* //padding: 25px 0px; */
+     background: #052501;
+     padding: 90px 0px;
 }
 
 
@@ -2411,8 +2398,7 @@ ul.Links_footer li {
      padding-bottom: 3px;
      border-bottom: #3e7f21 solid 4px;
      margin-bottom: 20px;
-     width: 283px;
-    text-align: center;
+     width: 226px;
 }
 
 .address img {
@@ -2450,7 +2436,6 @@ ul.Links_footer li {
 .copyright {
      background: #30880d;
      padding: 20px 0px 20px 0;
-     width: 102%;
 }
 
 .copyright p {
